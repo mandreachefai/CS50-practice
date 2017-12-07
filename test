@@ -1,0 +1,30 @@
+
+ #include <cs50.h>
+ #include <stdio.h>
+
+ float valid_triangle (float a, float b, float c);
+
+ main (void) {
+
+    // ask user for input
+
+    printf ("enter the lenght of the first side");
+    float a = getfloat();
+
+    printf ("enter the lenght of the first side");
+    float b = getfloat();
+
+    printf ("enter the lenght of the first side");
+    float c = getfloat();
+
+}
+
+float valid_triangle (float a, float b, float c) {
+
+
+    // check for valid input
+    do {
+        printf ("invalid input")
+    } while (a =< 0 || b =< 0 || c =< 0)
+
+ }
